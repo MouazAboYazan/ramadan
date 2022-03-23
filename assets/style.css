@@ -1,0 +1,42 @@
+body{
+    background-color: #f8f8f8;
+    color: #f8f8f8;
+}
+
+
+.content{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 80px;
+    transform: translateY(25vh);
+    position: relative;
+}
+
+.time{
+    background-color: #00a9a9;
+    padding: 15px;
+    margin: 0 10px;
+    line-height: 100px;
+    font-family: 'Stardos Stencil', cursive;
+    border-radius: 3px;
+}
+
+.text{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    transform: translateY(-130px);
+    margin: auto ;
+}
