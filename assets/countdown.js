@@ -1,4 +1,4 @@
-let countDownDate = new Date("April 1, 2022 23:59:59").getTime();
+let countDownDate = new Date("April 2, 2022 23:59:59").getTime();
 let counter = setInterval(() => {
     let dateNow = new Date().getTime();
     let dateDiff = countDownDate - dateNow;
